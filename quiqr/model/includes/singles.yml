@@ -1,0 +1,160 @@
+- key: mainConfig
+  title: Site Configuration
+  file: config.yaml
+  fields:
+    - key: title
+      title: Site Title
+      type: string
+      tip: Your page title.
+
+    - key: baseURL
+      title: Base URL
+      type: string
+      tip: Your site URL.
+
+- key: layoutFields
+  title: Layout Fields
+  file: layoutFields.yaml
+  fields:
+
+    - key: info
+      size: small
+      type: info
+      content: |-
+        ## I love Quiqr!
+
+        * it's smart
+        * it's fast
+        * it has Quiqr One"
+
+        below this info fields is an empty line field with for creating extra space
+
+    - key: empty_line
+      amount: 2
+      type: empty-line
+
+    - key: image
+      type: bundle-manager
+      path: "/static/images"
+      extensions:
+        - svg
+        - png
+        - jpg
+        - gif
+      fields:
+        - key: thumb
+          title: Thumb
+          type: bundle-image-thumbnail
+
+- key: containerFields
+  title: Container Fields
+  file: containerFields.yaml
+  fields:
+    - key: nest
+      type: nest
+      groupdata: true
+      fields:
+        - key: field1
+          type: string
+          arrayTitle: true
+
+        - key: field2
+          type: string
+
+    - key: accordion
+      type: accordion
+      fields:
+        - key: field1
+          type: string
+          arrayTitle: true
+
+        - key: field2
+          type: string
+
+- key: dataFields
+  title: Data Fields
+  file: dataFields.md
+  fields:
+    - key: date
+      type: date
+      dateFormat: "MM dd yyyy"
+      tip: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat diam sit amet turpis bibendum hendrerit. Quisque a imperdiet augue. Aliquam pellentesque laoreet nisi non vestibulum. Curabitur a felis mi. Maecenas at blandit elit, sagittis efficitur neque. Aliquam dapibus, nulla eget auctor condimentum, libero risus posuere est, ac tincidunt enim quam in nisl. Nulla sit amet tincidunt nunc.
+
+    - key: chips
+      type: chips
+
+    - key: select_single
+      default: 2
+      multiple: false
+      type: select
+      options:
+      - text: Option 1
+        value: 1
+      - text: Option 2
+        value: 2
+      - text: Option 3
+        value: 3
+
+    - key: select_multiple
+      multiple: true
+      type: select
+      options:
+      - text: Option 1
+        value: 1
+      - text: Option 2
+        value: 2
+      - text: Option 3
+        value: 3
+
+    - key: number
+      type: number
+
+    - key: string
+      type: string
+
+    - key: Multiline String
+      type: string
+      multiLine: true
+      tip: Enter more then one line
+
+    - key: uniq
+      type: uniq
+
+    - key: readonly
+      type: readonly
+      default: some preset value
+
+    - key: boolean
+      type: boolean
+
+    - key: leaf_array
+      type: leaf-array
+      field:
+        key: some_child_field
+        type: string
+
+    - key: image_select
+      buttonTitle: select image
+      path: /static/images
+      type: image-select
+
+
+- key: images
+  title: Images
+  hidePreviewIcon: false
+  hideExternalEditIcon: false
+  hideSaveButton: false
+  file: static/.pogo-images-logo.md
+  fields:
+    - key: image
+      type: bundle-manager
+      path: "/static/images"
+      extensions:
+        - svg
+        - png
+        - jpg
+        - gif
+      fields:
+        - key: thumb
+          title: Thumb
+          type: bundle-image-thumbnail

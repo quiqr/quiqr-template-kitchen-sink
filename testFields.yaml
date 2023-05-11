@@ -1,0 +1,29 @@
+title: hhh
+some_parent_field:
+  - '2023-05-23'
+  - '2023-05-16'
+accordion:
+  - field1: hallo
+    field2: bye
+  - field1: hoi
+    field2: hi
+sample_field: 524-5240809_aws-logo-svg-white-clipart.png
+some_parent_field2: {}
+chips:
+  - hallo
+  - nog een
+uniq: 9355-c169-e354
+date: '2023-05-08'
+string: some thing
+number: 0
+Multiline String: |-
+  line 1
+  line 2
+readonly: some preset value
+leaf_array:
+  - hallo
+  - dag
+image_select: Screenshot from 2023-05-09 14-58-26.png
+nest:
+  some_child_field: hallo
+boolean: false

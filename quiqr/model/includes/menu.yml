@@ -1,0 +1,12 @@
+- title: Fields
+  menuItems:
+    - key: containerFields
+    - key: dataFields
+    - key: layoutFields
+
+- title: Example Cases
+  menuItems:
+    - key: mainConfig
+    - key: images
+    - key: pages
+

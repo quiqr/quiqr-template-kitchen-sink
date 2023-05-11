@@ -1,0 +1,7 @@
+nest:
+  some_child_field: hello
+accordion:
+  - field1: hi
+    field2: hello
+  - field1: bye
+    field2: salut

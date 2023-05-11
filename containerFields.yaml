@@ -1,0 +1,9 @@
+nest:
+  some_child_field: some field
+  field1: hallo
+  field2: dag
+accordion:
+  - field1: hallo
+    field2: dag
+  - field1: bye
+    field2: salut
