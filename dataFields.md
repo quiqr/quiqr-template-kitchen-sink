@@ -2,7 +2,7 @@
 chips:
   - business
   - pleasure
-number: 13
+number: 14
 string: Single line of text
 Multiline String: |-
   do I say
@@ -15,13 +15,15 @@ leaf_array:
   - item 1
 image_select: seed_765936_00003.png
 sample_field: 1
-select_single: '2'
+select_single: 2
 select_multiple:
   - 1
   - 3
 date: '2022-03-28'
 
 ---
+
+
 
 
 
