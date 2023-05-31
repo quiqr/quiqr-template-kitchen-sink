@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Quiqr Kitchen Sink</title>
+  </head>
+  <style>
+    body{
+      background: rgb(2,0,36);
+      background: linear-gradient(111deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(0,212,255,1) 100%);
+    }
+
+    .center {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 40px;
+      font-family: 'sans-serif';
+      font-weight: bold
+    }
+  </style>
+  <body>
+    <div class="center">Kitchen Sink</div>
+  </body>
+</html>
