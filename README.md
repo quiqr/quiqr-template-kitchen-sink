@@ -1,1 +1,3 @@
-# quiqr-template-kitchen-sink
+# Kitchen Sink
+
+A Quiqr Template with a complete model.
