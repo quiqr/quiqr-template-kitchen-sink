@@ -71,8 +71,34 @@
         - key: field2
           type: string
 
-- key: dataFields
-  title: Data Fields
+    - key: pull
+      fields:
+      - key: author
+        title: Author
+        type: string
+      - key: description
+        multiLine: true
+        title: Description
+        type: string
+      group: params
+      type: pull
+
+    - key: section
+      fields:
+      - key: some_child_field
+        title: Some chield field
+        type: date
+      groupdata: true
+      type: section
+
+    - key: leaf_array
+      type: leaf-array
+      field:
+        key: some_child_field
+        type: string
+
+- key: advancedDataFields
+  title: Advanced Data Fields
   file: dataFields.md
   fields:
     - key: date
@@ -82,6 +108,53 @@
 
     - key: chips
       type: chips
+
+    - key: uniq
+      type: uniq
+
+    - key: color
+      type: color
+
+    - key: fonticon-picker
+      type: fonticon-picker
+
+    - key: font-picker
+      limit: 40
+      categories:
+        - sans-serif
+      families:
+      - roboto
+      - roboto condensed
+      - lato
+      - open sans
+      type: font-picker
+
+    - key: select-from-query
+      multiple: false
+      query_glob: data/system_data.json
+      query_string: .weekday[]
+      type: select-from-query
+
+    - key: image_select
+      buttonTitle: select image
+      path: /static/images
+      type: image-select
+
+
+
+    - key: slider
+      max: 800
+      min: 0
+      step: 10
+      type: slider
+
+
+
+
+- key: simpleDataFields
+  title: Simple Data Fields
+  file: dataFields.md
+  fields:
 
     - key: select_single
       default: 2
@@ -106,19 +179,30 @@
       - text: Option 3
         value: 3
 
+    - key: hidden
+      type: hidden
+      default: some value
+
+
     - key: number
       type: number
 
     - key: string
       type: string
 
+    - key: info_about_next_field
+      type: info
+      content: the next field is `disabled`
+
+    - key: disabled_field
+      type: info
+      disabled: true
+      content: this field is disabled and thus hidden
+
     - key: Multiline String
       type: string
       multiLine: true
       tip: Enter more then one line
-
-    - key: uniq
-      type: uniq
 
     - key: readonly
       type: readonly
@@ -126,17 +210,6 @@
 
     - key: boolean
       type: boolean
-
-    - key: leaf_array
-      type: leaf-array
-      field:
-        key: some_child_field
-        type: string
-
-    - key: image_select
-      buttonTitle: select image
-      path: /static/images
-      type: image-select
 
 
 - key: images

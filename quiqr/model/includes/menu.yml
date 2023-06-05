@@ -1,8 +1,9 @@
 - title: Fields
   menuItems:
-    - key: containerFields
-    - key: dataFields
+    - key: simpleDataFields
+    - key: advancedDataFields
     - key: layoutFields
+    - key: containerFields
 
 - title: Example Cases
   menuItems:

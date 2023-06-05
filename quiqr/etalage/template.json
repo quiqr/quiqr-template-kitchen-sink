@@ -1,0 +1,9 @@
+{
+  "name": "KitchenSink",
+  "description": "Template with every available field type. For learning the Quiqr Model",
+  "homepage": "https://github.com/quiqr/quiqr-template-kitchen-sink",
+  "license": "MIT",
+  "licenseURL": "https://github.com/quiqr/quiqr-template-kitchen-sink/blob/main/LICENSE",
+  "author": "Pim Snel",
+  "authorHomepage": "https://github.com/mipmip"
+}

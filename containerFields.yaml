@@ -7,3 +7,8 @@ accordion:
     field2: dag
   - field1: bye
     field2: salut
+params:
+  author: mipmip
+  description: Every available field
+section:
+  some_child_field: '2023-06-21'
