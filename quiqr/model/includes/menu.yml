@@ -10,4 +10,5 @@
     - key: mainConfig
     - key: images
     - key: pages
+    - key: singlePage
 

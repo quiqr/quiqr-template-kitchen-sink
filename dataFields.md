@@ -24,9 +24,11 @@ fonticon-picker: FaCarCrash
 color: lime
 font-picker: ''
 select-from-query: Sunday
-slider: 320
+slider: 440
 
 ---
+
+
 
 
 
