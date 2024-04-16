@@ -4,6 +4,7 @@
     - key: advancedDataFields
     - key: layoutFields
     - key: containerFields
+    - key: visualSelects
 
 - title: Example Cases
   menuItems:

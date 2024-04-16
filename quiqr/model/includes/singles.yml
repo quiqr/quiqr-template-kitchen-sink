@@ -140,16 +140,41 @@
       path: /static/images
       type: image-select
 
-
-
     - key: slider
       max: 800
       min: 0
       step: 10
       type: slider
 
+- key: visualSelects
+  title: Visual Selects (Quiqr >= 0.18)
+  file: visualSelects.md
+  fields:
 
+    - key: select-from-query-with-images
+      multiple: false
+      query_string: "#file_base_name[]"
+      query_glob: quiqr/model/select_images/open_iconic_icons/*.svg
+      type: select-from-query
+      option_image_path: quiqr/model/select_images/open_iconic_icons
+      option_image_width: 50
+      option_image_extension: svg
 
+    - key: select-with-images
+      multiple: false
+      type: select
+      option_image_path: quiqr/model/select_images/open_iconic_icons
+      option_image_width: 20
+      option_image_extension: svg
+      options:
+        - value: arrow-circle-left
+          text: left
+        - value: arrow-circle-right
+          text: right
+        - value: arrow-circle-top
+          text: top
+        - value: arrow-circle-bottom
+          text: bottom
 
 - key: simpleDataFields
   title: Simple Data Fields
