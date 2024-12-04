@@ -1,0 +1,654 @@
+well_architected_improvements:
+  costOptimization:
+    cloud-financial-management:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.cloud-financial-management.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: costOptimization
+      QuestionId: cloud-financial-management
+      QuestionTitle: How do you implement cloud financial management?
+      REPORT:
+        cost_number_of_100: 76.74060382008626
+        importance_number_of_100: 23.400850580624386
+        short-med-long: short
+        show: true
+      Risk: MEDIUM
+      RiskCode: COST01
+      _label: cloud-financial-management
+      x: 23.400850580624386
+      'y': 76.74060382008626
+    evaluate-cost-effort:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.evaluate-cost-effort.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: costOptimization
+      QuestionId: evaluate-cost-effort
+      QuestionTitle: How do you evaluate the cost of effort?
+      REPORT:
+        cost_number_of_100: 57.779886148007584
+        importance_number_of_100: 25.392970613283993
+        short-med-long: long
+        show: true
+      Risk: MEDIUM
+      RiskCode: COST11
+      _label: evaluate-cost-effort
+      x: 25.392970613283993
+      'y': 57.779886148007584
+    govern-usage:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.govern-usage.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: costOptimization
+      QuestionId: govern-usage
+      QuestionTitle: How do you govern usage?
+      REPORT:
+        cost_number_of_100: 11.606578115117017
+        importance_number_of_100: 32.231378439747424
+        short-med-long: short
+        show: true
+      Risk: HIGH
+      RiskCode: COST02
+      _label: govern-usage
+      x: 32.231378439747424
+      'y': 11.606578115117017
+    manage-demand-resources:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.manage-demand-resources.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: costOptimization
+      QuestionId: manage-demand-resources
+      QuestionTitle: How do you manage demand, and supply resources?
+      REPORT:
+        cost_number_of_100: 89.52556993222429
+        importance_number_of_100: 9.406125135072086
+        short-med-long: long
+        show: true
+      Risk: HIGH
+      RiskCode: COST09
+      _label: manage-demand-resources
+      x: 9.406125135072086
+      'y': 89.52556993222429
+    monitor-usage:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.monitor-usage.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: costOptimization
+      QuestionId: monitor-usage
+      QuestionTitle: How do you monitor your cost and usage?
+      REPORT:
+        cost_number_of_100: 84.97786211258696
+        importance_number_of_100: 58.14894410204381
+        short-med-long: short
+        show: true
+      Risk: HIGH
+      RiskCode: COST03
+      _label: monitor-usage
+      x: 58.14894410204381
+      'y': 84.97786211258696
+    type-size-number-resources:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.type-size-number-resources.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: costOptimization
+      QuestionId: type-size-number-resources
+      QuestionTitle: >-
+        How do you meet cost targets when you select resource type, size and
+        number?
+      REPORT:
+        cost_number_of_100: 20.517560073937158
+        importance_number_of_100: 5.3496829769409855
+        short-med-long: long
+        show: true
+      Risk: MEDIUM
+      RiskCode: COST06
+      _label: type-size-number-resources
+      x: 5.3496829769409855
+      'y': 20.517560073937158
+  operationalExcellence:
+    dev-integ:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.dev-integ.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: operationalExcellence
+      QuestionId: dev-integ
+      QuestionTitle: >-
+        How do you reduce defects, ease remediation, and improve flow into
+        production?
+      REPORT:
+        cost_number_of_100: 69.80899568699938
+        importance_number_of_100: 9.473732504374272
+        short-med-long: short
+        show: true
+      Risk: MEDIUM
+      RiskCode: OPS05
+      _label: dev-integ
+      x: 9.473732504374272
+      'y': 69.80899568699938
+eisenhouwer_test3:
+  costOptimization:
+    cloud-financial-management: null
+    evolve-ops:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.evolve-ops.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: operationalExcellence
+      QuestionId: evolve-ops
+      QuestionTitle: How do you evolve operations?
+      REPORT:
+        cost_number_of_100: 25
+        importance_number_of_100: 25
+        short-med-long: short
+        show: true
+      Risk: HIGH
+      RiskCode: OPS11
+      _label: evolve-ops
+      x: 25
+      'y': 25
+    mit-deploy-risks:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.mit-deploy-risks.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: operationalExcellence
+      QuestionId: mit-deploy-risks
+      QuestionTitle: How do you mitigate deployment risks?
+      REPORT:
+        cost_number_of_100: 10
+        importance_number_of_100: 25
+        short-med-long: short
+        show: true
+      Risk: MEDIUM
+      RiskCode: OPS06
+      _label: mit-deploy-risks
+      x: 25
+      'y': 10
+    observability:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.observability.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: operationalExcellence
+      QuestionId: observability
+      QuestionTitle: How do you implement observability in your workload?
+      REPORT:
+        cost_number_of_100: 80
+        importance_number_of_100: 60
+        short-med-long: short
+        show: true
+      Risk: HIGH
+      RiskCode: OPS04
+      _label: observability
+      x: 60
+      'y': 80
+    org-culture:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.org-culture.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: operationalExcellence
+      QuestionId: org-culture
+      QuestionTitle: How does your organizational culture support your business outcomes?
+      REPORT:
+        cost_number_of_100: 25
+        importance_number_of_100: 25
+        short-med-long: long
+        show: true
+      Risk: HIGH
+      RiskCode: OPS03
+      _label: org-culture
+      x: 25
+      'y': 25
+    priorities:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.priorities.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: operationalExcellence
+      QuestionId: priorities
+      QuestionTitle: How do you determine what your priorities are?
+      REPORT:
+        cost_number_of_100: 35
+        importance_number_of_100: 25
+        short-med-long: medium
+        show: true
+      Risk: MEDIUM
+      RiskCode: OPS01
+      _label: priorities
+      x: 25
+      'y': 35
+    ready-to-support:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.ready-to-support.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: operationalExcellence
+      QuestionId: ready-to-support
+      QuestionTitle: How do you know that you are ready to support a workload?
+      REPORT:
+        cost_number_of_100: 25
+        importance_number_of_100: 25
+        short-med-long: short
+        show: true
+      Risk: HIGH
+      RiskCode: OPS07
+      _label: ready-to-support
+      x: 25
+      'y': 25
+    workload-observability:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.workload-observability.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: operationalExcellence
+      QuestionId: workload-observability
+      QuestionTitle: How do you utilize workload observability in your organization?
+      REPORT:
+        cost_number_of_100: 75
+        importance_number_of_100: 60
+        short-med-long: medium
+        show: true
+      Risk: HIGH
+      RiskCode: OPS08
+      _label: workload-observability
+      x: 60
+      'y': 75
+  performance:
+    compute-hardware:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.compute-hardware.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: performance
+      QuestionId: compute-hardware
+      QuestionTitle: How do you select and use compute resources in your workload?
+      REPORT:
+        cost_number_of_100: 20
+        importance_number_of_100: 75
+        short-med-long: medium
+        show: true
+      Risk: HIGH
+      RiskCode: PERF02
+      _label: compute-hardware
+      x: 75
+      'y': 20
+    networking:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.networking.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: performance
+      QuestionId: networking
+      QuestionTitle: How do you select and configure networking resources in your workload?
+      REPORT:
+        cost_number_of_100: 10
+        importance_number_of_100: 10
+        short-med-long: long
+        show: true
+      Risk: HIGH
+      RiskCode: PERF04
+      _label: networking
+      x: 10
+      'y': 10
+    performing-architecture:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.performing-architecture.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: performance
+      QuestionId: performing-architecture
+      QuestionTitle: >-
+        How do you select the appropriate cloud resources and architecture
+        patterns for your workload?
+      REPORT:
+        cost_number_of_100: 25
+        importance_number_of_100: 25
+        short-med-long: long
+        show: true
+      Risk: MEDIUM
+      RiskCode: PERF01
+      _label: performing-architecture
+      x: 25
+      'y': 25
+    process-culture:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.process-culture.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: performance
+      QuestionId: process-culture
+      QuestionTitle: >-
+        What process do you use to support more performance efficiency for your
+        workload?
+      REPORT:
+        cost_number_of_100: 80
+        importance_number_of_100: 75
+        short-med-long: medium
+        show: true
+      Risk: HIGH
+      RiskCode: PERF05
+      _label: process-culture
+      x: 75
+      'y': 80
+  reliability:
+    adapt-to-changes:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.adapt-to-changes.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: reliability
+      QuestionId: adapt-to-changes
+      QuestionTitle: How do you design your workload to adapt to changes in demand?
+      REPORT:
+        cost_number_of_100: 45.62538508934073
+        importance_number_of_100: 4.944038761127876
+        short-med-long: long
+        show: true
+      Risk: MEDIUM
+      RiskCode: REL07
+      _label: adapt-to-changes
+      x: 4.944038761127876
+      'y': 45.62538508934073
+    manage-service-limits:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.manage-service-limits.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: reliability
+      QuestionId: manage-service-limits
+      QuestionTitle: How do you manage service quotas and constraints?
+      REPORT:
+        cost_number_of_100: 20
+        importance_number_of_100: 10
+        short-med-long: medium
+        show: true
+      Risk: MEDIUM
+      RiskCode: REL01
+      _label: manage-service-limits
+      x: 10
+      'y': 20
+    mitigate-interaction-failure:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.mitigate-interaction-failure.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: reliability
+      QuestionId: mitigate-interaction-failure
+      QuestionTitle: >-
+        How do you design interactions in a distributed system to mitigate or
+        withstand failures?
+      REPORT:
+        cost_number_of_100: 25
+        importance_number_of_100: 25
+        short-med-long: medium
+        show: true
+      Risk: HIGH
+      RiskCode: REL04
+      _label: mitigate-interaction-failure
+      x: 25
+      'y': 25
+    monitor-aws-resources:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.monitor-aws-resources.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: reliability
+      QuestionId: monitor-aws-resources
+      QuestionTitle: How do you monitor workload resources?
+      REPORT:
+        cost_number_of_100: 70
+        importance_number_of_100: 80
+        short-med-long: medium
+        show: true
+      Risk: HIGH
+      RiskCode: REL06
+      _label: monitor-aws-resources
+      x: 80
+      'y': 70
+    planning-for-recovery:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.planning-for-recovery.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: reliability
+      QuestionId: planning-for-recovery
+      QuestionTitle: How do you plan for disaster recovery (DR)?
+      REPORT:
+        cost_number_of_100: 30
+        importance_number_of_100: 80
+        short-med-long: medium
+        show: true
+      Risk: HIGH
+      RiskCode: REL13
+      _label: planning-for-recovery
+      x: 80
+      'y': 30
+    testing-resiliency:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.testing-resiliency.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: reliability
+      QuestionId: testing-resiliency
+      QuestionTitle: How do you test reliability?
+      REPORT:
+        cost_number_of_100: 50
+        importance_number_of_100: 70
+        short-med-long: long
+        show: true
+      Risk: HIGH
+      RiskCode: REL12
+      _label: testing-resiliency
+      x: 70
+      'y': 50
+    tracking-change-management:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.tracking-change-management.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: reliability
+      QuestionId: tracking-change-management
+      QuestionTitle: How do you implement change?
+      REPORT:
+        cost_number_of_100: 40
+        importance_number_of_100: 50
+        short-med-long: long
+        show: true
+      Risk: HIGH
+      RiskCode: REL08
+      _label: tracking-change-management
+      x: 50
+      'y': 40
+    withstand-component-failures:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.withstand-component-failures.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: reliability
+      QuestionId: withstand-component-failures
+      QuestionTitle: How do you design your workload to withstand component failures?
+      REPORT:
+        cost_number_of_100: 40
+        importance_number_of_100: 80
+        short-med-long: long
+        show: true
+      Risk: HIGH
+      RiskCode: REL11
+      _label: withstand-component-failures
+      x: 80
+      'y': 40
+  security:
+    application-security:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.application-security.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: security
+      QuestionId: application-security
+      QuestionTitle: >-
+        How do you incorporate and validate the security properties of
+        applications throughout the design, development, and deployment
+        lifecycle?
+      REPORT:
+        cost_number_of_100: 60
+        importance_number_of_100: 60
+        short-med-long: long
+        show: true
+      Risk: HIGH
+      RiskCode: SEC11
+      _label: application-security
+      x: 60
+      'y': 60
+    data-classification:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.data-classification.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: security
+      QuestionId: data-classification
+      QuestionTitle: How do you classify your data?
+      REPORT:
+        cost_number_of_100: 20
+        importance_number_of_100: 30
+        short-med-long: long
+        show: true
+      Risk: HIGH
+      RiskCode: SEC07
+      _label: data-classification
+      x: 30
+      'y': 20
+    detect-investigate-events:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.detect-investigate-events.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: security
+      QuestionId: detect-investigate-events
+      QuestionTitle: How do you detect and investigate security events?
+      REPORT:
+        cost_number_of_100: 25
+        importance_number_of_100: 25
+        short-med-long: medium
+        show: true
+      Risk: HIGH
+      RiskCode: SEC04
+      _label: detect-investigate-events
+      x: 25
+      'y': 25
+    identities:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.identities.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: security
+      QuestionId: identities
+      QuestionTitle: How do you manage identities for people and machines?
+      REPORT:
+        cost_number_of_100: 60
+        importance_number_of_100: 75
+        short-med-long: short
+        show: true
+      Risk: HIGH
+      RiskCode: SEC02
+      _label: identities
+      x: 75
+      'y': 60
+    incident-response:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.incident-response.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: security
+      QuestionId: incident-response
+      QuestionTitle: How do you anticipate, respond to, and recover from incidents?
+      REPORT:
+        cost_number_of_100: 30
+        importance_number_of_100: 80
+        short-med-long: short
+        show: true
+      Risk: HIGH
+      RiskCode: SEC10
+      _label: incident-response
+      x: 80
+      'y': 30
+    network-protection:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.network-protection.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: security
+      QuestionId: network-protection
+      QuestionTitle: How do you protect your network resources?
+      REPORT:
+        cost_number_of_100: 70
+        importance_number_of_100: 20
+        short-med-long: long
+        show: true
+      Risk: MEDIUM
+      RiskCode: SEC05
+      _label: network-protection
+      x: 20
+      'y': 70
+    permissions:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.permissions.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: security
+      QuestionId: permissions
+      QuestionTitle: How do you manage permissions for people and machines?
+      REPORT:
+        cost_number_of_100: 25
+        importance_number_of_100: 25
+        short-med-long: medium
+        show: true
+      Risk: MEDIUM
+      RiskCode: SEC03
+      _label: permissions
+      x: 25
+      'y': 25
+    protect-compute:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.protect-compute.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: security
+      QuestionId: protect-compute
+      QuestionTitle: How do you protect your compute resources?
+      REPORT:
+        cost_number_of_100: 10
+        importance_number_of_100: 20
+        short-med-long: long
+        show: true
+      Risk: MEDIUM
+      RiskCode: SEC06
+      _label: protect-compute
+      x: 20
+      'y': 10
+    securely-operate:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.securely-operate.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: security
+      QuestionId: securely-operate
+      QuestionTitle: How do you securely operate your workload?
+      REPORT:
+        cost_number_of_100: 20
+        importance_number_of_100: 75
+        short-med-long: medium
+        show: true
+      Risk: HIGH
+      RiskCode: SEC01
+      _label: securely-operate
+      x: 75
+      'y': 20
+  sustainability:
+    sus_data:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.sus_data.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: sustainability
+      QuestionId: sus_data
+      QuestionTitle: >-
+        How do you take advantage of data management policies and patterns to
+        support your sustainability goals?
+      REPORT:
+        cost_number_of_100: 30
+        importance_number_of_100: 40
+        short-med-long: long
+        show: true
+      Risk: MEDIUM
+      RiskCode: SUS04
+      _label: sus_data
+      x: 40
+      'y': 30
+    sus_user:
+      ImprovementPlanUrl: >-
+        https://wa.aws.amazon.com/wellarchitected/2024-06-27T08-00-00/TypeII/en/wellarchitected/wellarchitected.sus_user.improvement-plan.en.html
+      ImprovementPlans: []
+      PillarId: sustainability
+      QuestionId: sus_user
+      QuestionTitle: How do you align cloud resources to your demand?
+      REPORT:
+        cost_number_of_100: 10
+        importance_number_of_100: 70
+        short-med-long: long
+        show: true
+      Risk: MEDIUM
+      RiskCode: SUS02
+      _label: sus_user
+      x: 70
+      'y': 10

@@ -1,0 +1,14 @@
+garden_tasks:
+  datasets:
+    - data:
+        - x: 12.095586047855198
+          'y': 17.606516290726816
+          task: Paint the barn
+        - x: 59.30351205919222
+          'y': 75.56390977443608
+          r: 10
+          task: Grow strawberries
+        - x: 13.1684475382623
+          'y': 76.60357518401682
+          r: 10
+          task: Dig a pond

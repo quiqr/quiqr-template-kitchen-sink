@@ -1,3 +1,9 @@
+- key: eisenhouwer_from_dictionary
+  _mergePartial: eisenhouwer_from_dictionary
+
+- key: eisenhouwer_from_array
+  _mergePartial: eisenhouwer_from_array
+
 - key: mainConfig
   title: Site Configuration
   file: config.yaml
